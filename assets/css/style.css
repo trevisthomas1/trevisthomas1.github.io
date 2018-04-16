@@ -1,0 +1,116 @@
+/**
+ * Float Layout Activity
+ **/
+
+ * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+  }
+  
+  header {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background: #ccc;
+  }
+  
+  section {
+    background: #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #left {
+    color: #ccc;
+    background: #666;
+    width: 33.33%;
+    float: left;
+  }
+  
+  #middle {
+    color: #ccc;
+    background: #888;
+    width: 33.33%;
+    float: left;
+  }
+  
+  #right {
+    color: #ccc;
+    background: #666;
+    width: 33.33%;
+    float: left;
+  }
+  
+  #full {
+    color: #333;
+    background: #eee;
+    clear: both;
+    overflow: auto;
+    width: 100%;
+  }
+  
+  #division {
+    color: #333;
+    background: #6ea3da;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  aside {
+    color: #333;
+    background: #fff;
+    width: 33%;
+    height: 200px;
+    border: 1px solid #eee;
+    padding: 20px;
+    float: left;
+    margin-left: 30px;
+  }
+  
+  footer {
+    color: #333;
+    background: #ccc;
+    clear: both;
+    padding: 20px;
+  }
+  
+
+
+/*
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efeee7;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+#bio-header {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+#YourName {
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 28px;
+    color: #eee;
+    position: fixed;
+    padding: 40px;
+    text-align: center;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+*/

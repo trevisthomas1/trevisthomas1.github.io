@@ -3,34 +3,46 @@
  **/
 
  * {
-    box-sizing: border-box;
     text-align: center;
   }
   
   body {
     font-size: 24px;
     line-height: 32px;
-    color: #333;
+    background-color: #fff;
+    margin: 0;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
   }
   
   header {
     padding: 20px;
     margin-bottom: 20px;
-    color: #333;
-    background: #ccc;
+    height: 20px;
+    background: #55d6aa;
+    border-color: #cccccc;
+    font-family: font-family: 'Georgia', Times, 'Times New Roman', serif;
   }
-  
+
+  .bio-header {
+    color: #ffffff;
+    background: #4aaaa5;
+    width: 33%;
+    height: 200px;
+    border: 1px solid #eee;
+    padding: 20px;
+    float: left;
+    margin-left: 30px;
+  }
+
   section {
     background: #ccc;
     padding: 20px;
     margin-bottom: 20px;
-  }
-  
-  #left {
-    color: #ccc;
-    background: #666;
-    width: 33.33%;
-    float: left;
+    clear: both;
   }
   
   #middle {
@@ -40,42 +52,10 @@
     float: left;
   }
   
-  #right {
-    color: #ccc;
-    background: #666;
-    width: 33.33%;
-    float: left;
-  }
-  
-  #full {
-    color: #333;
-    background: #eee;
-    clear: both;
-    overflow: auto;
-    width: 100%;
-  }
-  
-  #division {
-    color: #333;
-    background: #6ea3da;
-    padding: 20px;
-    margin-top: 20px;
-  }
-  
-  aside {
-    color: #333;
-    background: #fff;
-    width: 33%;
-    height: 200px;
-    border: 1px solid #eee;
-    padding: 20px;
-    float: left;
-    margin-left: 30px;
-  }
-  
   footer {
-    color: #333;
-    background: #ccc;
+    background: #666666;
+    border-top-width: 5px;
+    border-top-color: #4aaaa5;
     clear: both;
     padding: 20px;
   }

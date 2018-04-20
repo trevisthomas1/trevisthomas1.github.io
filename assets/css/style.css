@@ -90,7 +90,7 @@
     clear: both;
   }
 
-  .main {
+  .aboutMain {
     position: relative;
     padding: 20px;
     margin-left: 480px;
@@ -102,7 +102,19 @@
     border: #cccccc 10px solid;
   }
 
-  #aboutme {
+   .portfolioMain {
+    position: relative;
+    padding: 20px;
+    margin-left: 480px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    width: 900px;
+    height: 700px;
+    background-color: #888;
+    border: #cccccc 10px solid;
+  }
+
+  .aboutMe {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     text-decoration: underline;
@@ -110,11 +122,19 @@
     
   }
 
-  #portfoliopic {
+  #aboutPic {
     height: 219px;
     width: 243px;
     float: left;
     margin-right: 20px;
+  }
+
+  .portfolioPic {
+    height: 219px;
+    width: 243px;
+    float: left;
+    margin: 20px;
+    display: block;
   }
 
   .copy {

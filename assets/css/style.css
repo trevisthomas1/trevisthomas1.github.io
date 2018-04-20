@@ -13,7 +13,7 @@
     margin: 0;
     text-align: center;
     width: 100%;
-    background-image: url(../images/background.png);
+    background-image: url(../images/furley_bg.png);
   }
 
   .container {
@@ -79,6 +79,7 @@
     position: relative;
     text-decoration: none;
     color: #777777;
+    font-weight: bold;
     /*text-transform: uppercase;*/
   }
 
@@ -105,7 +106,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     text-decoration: underline;
-    color: #ffffff;
+    color: #cccccc;
     
   }
 
@@ -113,7 +114,7 @@
     height: 219px;
     width: 243px;
     float: left;
-    margin-right: 15px;
+    margin-right: 20px;
   }
 
   .copy {
@@ -124,6 +125,7 @@
     font-size: 16px;
     line-height: 24px;
     padding-left: 20px;
+    padding-right: 20px;
   }
   
   footer {
@@ -139,4 +141,6 @@
   
   #copyright {
     padding-top: 10px;
+    color: #777777;
+    font-weight: bold;
   }

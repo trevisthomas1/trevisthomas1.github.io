@@ -41,7 +41,6 @@
     background: #bbb;
     width: 20%;
     height: 45px;
-    /* border: 1px solid #eee; */
     float: left;
     padding: 15px 0 0 0;
   }
@@ -134,8 +133,8 @@
   }
 
   #aboutPic {
-    height: 219px;
-    width: 243px;
+    height: 197px;
+    width: 219px;
     float: left;
     margin-right: 20px;
   }
@@ -148,14 +147,50 @@
     display: block;
   }
 
-  .first {
+  .portfolioPic-box{
+    background: #4aaaa5;
+    color: #777777;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 155px;
+    height: 40px;
+  }
+
+  .firstpic {
     background-image: url("../images/michael.jpeg");
     background-size: cover;
+    border: 5px solid #bbb;
+  }
+
+  .secondpic {
+    background-image: url("../images/georgemichael.jpeg");
+    background-size: cover;
+    border: 5px solid #bbb;
+  }
+
+  .thirdpic {
+    background-image: url("../images/gob.jpeg");
+    background-size: cover;
+    border: 5px solid #bbb;
+  }
+
+  .fourthpic {
+    background-image: url("../images/tobias.jpeg");
+    background-size: cover;
+    border: 5px solid #bbb;
+  }
+
+  .fifthpic {
+    background-image: url("../images/buster.jpeg");
+    background-size: cover;
+    border: 5px solid #bbb;
   }
 
   .copy {
     float: right;
     clear: both;
+    color: #cccccc;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -176,8 +211,8 @@
 
 input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #4aaaa5;
+    color: #bbb;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -186,13 +221,18 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #4aaaa5;
 }
 
 .form {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+
+label {
+  font-family: 'Open Sans', sans-serif;
+  color: #777777;
 }
   
   footer {
